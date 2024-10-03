@@ -1,6 +1,9 @@
 name: Issue - Content in our Coding Challenges
 description: Report issues with a specific challenge, like broken tests, unclear instructions, etc.
-labels: ['scope: curriculum', 'type: bug', 'status: waiting triage']
+labels: 
+  - scope: curriculum
+  - type: bug
+  - status: waiting triage
 body:
   - type: markdown
     attributes:
@@ -23,7 +26,6 @@ body:
       description: Copy and paste the code from the editor that you used in between the back-ticks.
       value: |
         ```
-
 
 
         ```
@@ -58,3 +60,4 @@ body:
       description: Add any other context about the problem here.
     validations:
       required: false
+
